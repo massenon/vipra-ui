@@ -80,19 +80,6 @@ vipra-ui/
 └── README.md              # This file
 ```
 
-## 📜 Citation
-
-If you use this work in your research, please cite our paper:
-
-```bibtex
-@article{your_paper_citation,
-  title   = {ViPRA-UI: A Multimodal LLM Framework...},
-  author  = {Massenon, Rhodes and ...},
-  journal = {ACM Computing Surveys},
-  year    = {2025}
-}
-```
-
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).

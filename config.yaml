@@ -1,0 +1,20 @@
+# Configuration for ViPRA-UI
+
+# Paths (relative to the project root)
+paths:
+  screenshot_dir: "data/screenshots/"
+  xml_dir: "data/xml/"
+  output_dir: "reports/"
+  # We'll assume reviews come from user input in the demo
+
+# MLLM Settings
+mllm:
+  # Using a smaller, open MLLM for easier local testing and deployment
+  # Florence-2 is great at OCR and region-based tasks
+  model_name: "microsoft/Florence-2-large" 
+  device: "cuda" # "cuda" if you have a GPU, otherwise "cpu"
+  max_new_tokens: 1024 # Increased for detailed rationale
+
+# Analysis Settings
+analysis:
+  confidence_threshold: 0.7

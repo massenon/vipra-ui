@@ -1,0 +1,25 @@
+# Core ML / MLLM Libraries
+torch
+transformers
+accelerate # For faster model loading
+bitsandbytes # For 4-bit quantization (optional, but good for memory)
+
+# GUI and Review Analysis
+paddlepaddle-gpu # Or paddlepaddle for CPU
+paddleocr
+opencv-python
+spacy
+pandas
+
+# Web Framework (for the UI)
+Flask
+
+# Configuration
+pyyaml
+
+# Hugging Face Hub & Deployment
+huggingface_hub
+gradio # We'll use this for the Hugging Face Space
+
+# Download spaCy model data
+# (This is handled separately in a post-install step)

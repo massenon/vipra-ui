@@ -1,12 +1,6 @@
 # ViPRA-UI: Automated UI-User Review Mismatch Detection
 
-![ViPRA-UI Demo](./path/to/your/demo_screenshot.gif) 
-<!-- Create a small GIF of your app working and add it here -->
-
 This repository contains the official implementation of the **ViPRA-UI** framework, a tool for the automated detection of UI-User Review Mismatches in mobile applications. ViPRA-UI leverages Multimodal Large Language Models (MLLMs) to analyze GUI screenshots and user reviews, identifying discrepancies that often indicate software defects.
-
-This tool is the practical implementation of the research presented in our paper:
-> **[Your Paper Title]** - [Link to your paper or arXiv preprint]
 
 ---
 
@@ -17,13 +11,6 @@ This tool is the practical implementation of the research presented in our paper
 -   **Visual Grounding:** Automatically annotates screenshots to visually link user complaints to specific UI elements.
 -   **MLLM-Powered Reasoning:** Uses a structured vision prompt to guide a powerful MLLM (`microsoft/Florence-2-large`) through a logical analysis.
 -   **Interactive Demo:** A user-friendly Gradio web interface for easy testing and demonstration.
-
-## 🚀 Live Demo on Hugging Face Spaces
-
-You can try ViPRA-UI live without any installation:
-
-[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/massenon/vipra-ui) 
-<!-- This link will be updated after deployment -->
 
 ## 🛠️ Setup and Installation (Local)
 
